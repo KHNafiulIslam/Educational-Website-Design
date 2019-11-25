@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.layout{
+    width: 100%;
+}
+.inside-layout
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.layoutOne{
+    height: 40px;
+}
+.insideOne{
+    height: 40px;
+    background-color: black;
+}
+.insideOne ul{
+    flex: none;
+    display: inline;
+}
+.insideOne li{
+    font-family: fantasy;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    list-style: none;
+}
+.insideOne button{
+    margin:5px 5px;
+    float: right;
+    background-color: white;
+    padding: 5px 5px;
+    border: 0;
+}
+.layoutThree{
+    height: 400px;
+}
+.insideThree{
+    height: 400px;
+    background-image: url(Students.jpg);
+}
+.insideTwo h1{
+    margin-left: 10px;
+    color: white;
+    font-family: fantasy;
+}
+.insideTwo p{
+    margin: 10px;
+    color: white;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.insideTwo button{
+    margin:0 10px;
+    background-color: white;
+    padding: 5px 5px;
+    border: 0;
+}
+.layoutTwo{
+    height: 120px;
+}
+.insideTwo{
+    height: 120px;
+    background: purple;
+}
+.layoutFour{
+    height: 150px;
+}
+.insideFour{
+    height: 150px;
+    background: purple;    
+}
+.left{
+    width: 45%;
+    float: left;
+}
+.right{
+    width: 55%;
+    float: left;
+}
+.right h6{
+    margin: 10px;
+    font-size: 20px;
+    text-align: right;
+    color: white;
+    font-family: fantasy;
+}
+.right p{
+    color: white;
+    margin: 10px;
+    text-align: right;
+}
+
+.left h6{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: fantasy;
+}
+.insideThree h2{
+    text-align: center;
+    color: purple;
+    font-family: fantasy;
+    margin: 0 5px;
+    font-size: 30px;
+}
+.insideThree p{
+    text-align: center;
+    font-family: fantasy;
+    color: purple;
+    margin: 10px;
+    font-size: 30px;
+}
+.left p{
+    color: white;
+    margin: 10px;
+}
+.right a img{
+    margin: 4px;
+    height: 20px;
+    width: 20px;
+}
